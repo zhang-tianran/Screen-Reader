@@ -17,3 +17,6 @@ Screen reader is designed as an accessibility tool to help the visually impaired
 1. Run “tsc” in the folder you are currently at to compile your code.
 2. Add the script <code><script type="module" src="../screenreader.js"></script></code> in the <head> of the test HTML file.
 3. Run “http-server” in the folder and open the HTML file in your browser. You should be able to use your screen reader!
+
+---
+This project was originally from CSCI 0320 class assignment. Built under collaboration with Brandon Gong and Chayathorn Kulthonchalanan.
