@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Screenreader Table Demo
+		</title>
+	</head>
+
+	<body style="background-color:lightgreen;">
+		<div id = "textspace" align="center">
+			<h1>Courses</h1>
+			<p>Version with caption</p>
+			<table>
+				<caption style="visibility: hidden;">This is a table for Brown's CS courses.</caption>
+				<thead>
+					<tr>
+					<th>Course</th>
+					<th>Track</th>
+					<th>Professor</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+					<td><a href="http://www.google.com">Software Engineering</a></td>
+					<td>Software</td>
+					<td>Tim</td>
+					</tr>
+					<tr>
+					<td>Intro to Systems</td>
+					<td>Systems</td>
+					<td>Tom</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div style="height: 100px;"></div>
+			<p>Version without caption</p>
+			<table>
+				<thead>
+					<tr>
+					<th>Course</th>
+					<th>Track</th>
+					<th>Professor</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+					<td>Software Engineering</td>
+					<td>Software</td>
+					<td>Tim</td>
+					</tr>
+					<tr>
+					<td>Intro to Systems</td>
+					<td>Systems</td>
+					<td>Tom</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<script type="module" src="../screenreader.js"></script>
+	</body>
+</html>
